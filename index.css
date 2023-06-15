@@ -6,7 +6,8 @@
 body{
     margin:0;
     font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
-    color: #fff;
+    color: BLACK;
+
 }
 .logo{
     width: 50%;
@@ -48,25 +49,28 @@ body{
     margin-left: 95px;
 }
 .logincontrols{
-    margin-left: 157px;
-}
+    margin-left: 115px;}
+.main-body{   
+        background: linear-gradient(white,#D3D8E8);
+       width: 100%;
+       height: 500px;}
+
 .leftsection{
-    width: 50%;
-    padding-left: 89px;
-    padding-top: 29px;
-    float: left;
+    width:50%;
+    
+    
+    
 }
 .rightsection{
-    width: 50%;
+    width:50%;
     float:right;
+    margin-top: -136px;
 }
-.main-body{   
- background: linear-gradient(white,#D3D8E8);
-    width: 100%;
-    height: 400px;
-}
+
+
 .image{
-    width:581px;
+    width:417px;
+    margin-left: -24px;
 }
 .para{
     color: #323d66;
@@ -75,15 +79,70 @@ body{
 }
 .heading{
     color: black;
-    margin: 35px;
-
-    margin-top: -327px;
-    margin-left: 147px;
+    margin-top: -104px;
 }
 .para3{
     margin-left: 154px;
     margin-top: -18px;
+    
+
+    color: black;
 }
-.rightsection{
+
+
+
+.FirstName{
+    
+    height: 26px;
+    width: 152px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: white
+}
+.SecondName{
+    height: 26px;
+    width: 152px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: white
+}
+.Name{
+    margin-left: 151px;
+  
+}
+.Email{
+    margin-top: 10px;
+    margin-left: 151px;
+    height: 26px;
+    width: 317px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: white
+}
+.Password{
+    margin-top: 10px;
+    margin-left: 151px;
+    height: 26px;
+    width: 317px;  
+    border-radius: 4px;
+    font-size: 16px;
+    border-color: white
+}
+.para4{
+    color: #a79d9d;
+    margin-left: 152px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+.DateOfBirth{
+    margin-left:152px
+}
+.Gender{
+    color: #a79d9d;
+    margin-left: 152px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+.GenderRadio{
     color: black;
 }
