@@ -70,16 +70,18 @@ body{
 
 .image{
     width:417px;
-    margin-left: -24px;
+    padding-left: 17px;
 }
 .para{
     color: #323d66;
     font-size: 25px;
     font-weight: bold;
+    padding-left: 27px;
 }
 .heading{
     color: black;
     margin-top: -104px;
+    padding-left: 115px;
 }
 .para3{
     margin-left: 154px;
@@ -174,4 +176,36 @@ Button:hover{
 }
 .Link{
     text-decoration: none
+}
+.SignUp{
+    margin-left: 158px;
+    margin-top: 23px;
+    width: 131px;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+}
+.SignUp:hover{
+    cursor: pointer;
+}
+.para5{
+    padding-left: 156px;
+    font-weight: bold;
+    color: grey;
+}
+
+.CreateAPage{
+    text-decoration: none;
+}
+.Footer{
+    font-size: 11px;
 }
