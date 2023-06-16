@@ -137,12 +137,41 @@ body{
 .DateOfBirth{
     margin-left:152px
 }
+.Button{
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: grey;
+    background: grey;
+    width: 15px;
+    height: 13px;
+   text-align: center;
+   font-size: 11px;
+   color: white;
+   padding-left: 5px;
+   padding-bottom: 12px;
+
+}
+Button:hover{
+    cursor: pointer;
+}
+
+
 .Gender{
     color: #a79d9d;
     margin-left: 152px;
     margin-top: 18px;
     font-weight: bold;
 }
-.GenderRadio{
-    color: black;
+.accountInput{
+    margin-left: 151px;
+}
+.LinksText{
+    
+    color: grey;
+    padding-top: 18px;
+    font-size: 12px;
+    padding-left: 152px;
+}
+.Link{
+    text-decoration: none
 }
